@@ -1,8 +1,8 @@
 {
     "name": "Ameya's Portfolio",
     "headerTaglineOne": "Hello 👋",
-    "headerTaglineTwo": "I'm Ameya Rahurkar,",
-    "headerTaglineThree": "Welcome to my profile.",
+    "headerTaglineTwo": "I'm Ameya,",
+    "headerTaglineThree": "Welcome To My Profile",
     "headerTaglineFour": "",
     "showCursor": true,
     "showBlog": false,
@@ -30,30 +30,37 @@
       {
         "id": "1",
         "title": "Supply Chain Analytics",
-        "description": "Explored HIV medication data shipped worldwide, uncovering patterns and trends over the years. Built Predictive model on 50k shipping records, optimizing routes and reducing transport costs by 12%.",
+        "description": "Explored HIV medication data shipped worldwide and built predictive model on 50k shipping records to optimize routes and reduce transport",
         "imageSrc": "https://urbeuniversity.edu/post_assets/2mF2H4FETZcGuZ2RiurT1ErOd2Z0WZIyuVUFklhJ.webp",
         "url": "https://github.com/Ameya-20/Supply-Chain-Analytics/blob/main/Supply_Chain_Analytics_for_ShippingData.ipynb"
       },
       {
         "id": "2",
         "title": "Sentiment Prediction Via Text Analytics",
-        "description": "Analyzed 15k Airline Tweets and developed NLP model with 76% accuracy to predict sentiment and understand public perception of airlines critical to improve their services and public outreach.",
+        "description": "Analyzed 15k Tweets and developed NLP model to predict public sentiment and perception of leading airlines",
         "imageSrc": "https://img.freepik.com/premium-photo/ai-enabled-sentiment-evaluation-solid-color-background_964851-74720.jpg",
         "url": "https://github.com/Ameya-20/Airline-Sentiment-Analysis/blob/main/Airline_Tweets_Sentiment_Analysis.ipynb/"
       },
       {
         "id": "3",
         "title": "Product Recommendation for E-commerce",
-        "description": "Developed recommender system using collaborative filtering for e-commerce store, improving recommendation accuracy by 30% and increasing user engagement. Implemented personalized suggestions, resulting in a 20% increase in conversion and enhanced customer satisfaction.",
+        "description": "Developed recommender system for e-commerce store to increase user engagement and enhance customer satisfaction.",
         "imageSrc": "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*k32qF5np2TjKBk2UXsDquQ.jpeg",
         "url": "https://github.com/Ameya-20/Product-Recommendation/blob/main/Recommendation_System_Ecommerce_Store_Items.ipynb"
       },
       {
         "id": "4",
         "title": "Market Basket Analysis",
-        "description": "Implemented Apriori algorithm for grocery data, uncovering product associations that increased cross-sell opportunities by 25% and boosted promotional effectiveness by 15%.",
+        "description": "Implemented Apriori algorithm for product associations to increased cross-sell opportunities and boost Sales",
         "imageSrc": "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*gsP-V6bLLsjxObON.jpg",
         "url": "https://github.com/Ameya-20/Market-Basket-Analysis/blob/main/Market_Basket_Anaylsis_Grocery_Data_usign_Apriori_Model.ipynb"
+      },
+      {
+        "id": "5",
+        "title": "Tic Tac Toe Game",
+        "description": "Developed Tic Tac Toe using Goloang in Agile Development Environment",
+        "imageSrc": "https://global.discourse-cdn.com/bubble/original/3X/4/c/4c583a00f6a44768aa32b706547ae96f0162f1a3.png",
+        "url": "https://github.com/Ameya-20/GolangGame/tree/master/TicTacToeGame/tictactoe"
       }
     ],
   
@@ -105,7 +112,7 @@
       },
 
       "education2": {
-        "universityName": "K.J Somaiya College of Engineering, Univeraity of Mumbai",
+        "universityName": "K.J Somaiya College of Engineering, University of Mumbai",
         "universityDate": "Bachelor of Technology in Information Technology - 2021",
         "universityPara": "Coursework - Applied Mathematics, Development Frameworks, AI, Data Structures and Algorithms"
       },

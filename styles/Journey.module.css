@@ -11,10 +11,10 @@
 
 .timelineCard {
   flex-shrink: 0;
-  width: 260px;
+  width: 250px; /* Updated width */
   min-height: 180px;
   padding: 20px;
-  background-color: #1f2937;
+  background-color: #061b3b;
   color: white;
   border-radius: 12px;
   scroll-snap-align: center;
@@ -25,4 +25,14 @@
 .timelineCard:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(to bottom, #4c1e33, #000000); /* Gradient effect */
+}
+
+@media (max-width: 768px) {
+  .timelineCard {
+    width: 100%; /* Adjust for smaller screens */
+  }
 }

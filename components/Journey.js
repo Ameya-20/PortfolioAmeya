@@ -1,6 +1,12 @@
 import React from "react";
+import Slider from 'react-slick';
+import Image from 'next/image';
+import Link from 'next/link';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css"; 
 
 import styles from "../styles/Journey.module.css";
+
 
 const Journey = () => {
   const timeline = [
@@ -15,7 +21,7 @@ const Journey = () => {
       date: "Jan 2022 - May 2021",
     },
     {
-      role: "Software Engineering Intern - Go language",
+      role: "Software Engineering Intern - Golang",
       company: "Swabhav Techlabs, Mumbai",
       date: "March 2022 - May 2021",
     },
@@ -31,22 +37,73 @@ const Journey = () => {
     },
   ];
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 2, // Show 3 slides on large screens
+    slidesToScroll: 1,
+    autoplay: true, // Enables autoplay
+    autoplaySpeed: 2000, // Speed of autoplay in milliseconds
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1, // Show 2 slides on tablets
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1, // Show 1 slide on mobile
+        }
+      }
+    ]
+  };
+
   return (
-    <div className="mt-10 laptop:mt-20 p-5">
-      <h1 className="text-2xl tablet:text-4xl font-bold mb-8">
-        My Professional Journey
-      </h1>
+    <div className="project-slider-section mt-10">
+      <h2 className="text-2xl tablet:text-4xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 ">
+      Professional Journey
+      </h2>
+      <Slider {...settings} className="slider-container">
+      {timeline.map((item, index) => (
+          <div 
+          key={index} 
+          className="overflow-hidden rounded-lg p-4 w-[250px] sm:w-[80%] mx-auto my-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+ >  
+            <h2 className="text-xl font-bold text-white">{item.role}</h2>
+            <p className="text-md mt-2">{item.company}</p>
+            <p className="text-sm mt-1">{item.date}</p>
+            </div>
+          ))}
+      </Slider>
+      
       <div className={styles.scrollContainer}>
-  {timeline.map((item, index) => (
-    <div key={index} className={styles.timelineCard}>
-      <h2 className="text-xl font-bold">{item.role}</h2>
-      <p className="text-md mt-2">{item.company}</p>
-      <p className="text-sm mt-1">{item.date}</p>
-    </div>
-  ))}
-</div>
+          {timeline.map((item, index) => (
+          <div key={index} className={styles.timelineCard}
+          style={{ height: "200px", width: "350px" }}>
+            <h2 className="text-xl font-bold">{item.role}</h2>
+            <p className="text-md mt-2">{item.company}</p>
+            <p className="text-sm mt-1">{item.date}</p>
+            </div>
+          ))}
+      </div>
+      
     </div>
   );
 };
 
 export default Journey;
+/**
+ * <div className={styles.scrollContainer}>
+          {timeline.map((item, index) => (
+          <div key={index} className={styles.timelineCard}
+          style={{ height: "200px", width: "350px" }}>
+            <h2 className="text-xl font-bold">{item.role}</h2>
+            <p className="text-md mt-2">{item.company}</p>
+            <p className="text-sm mt-1">{item.date}</p>
+            </div>
+          ))}
+      </div>
+ */

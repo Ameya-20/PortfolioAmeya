@@ -11,6 +11,15 @@
 body {
   @apply dark:bg-black dark:text-white;
 }
+/* Ensure the body doesn't overflow horizontally */
+body {
+  overflow-x: hidden;
+}
+
+/* Ensure the main container doesn't exceed the screen width */
+.container {
+  max-width: 95%;
+}
 
 .gradient-circle {
   position: absolute;
