@@ -63,22 +63,9 @@ const Journey = () => {
 
   return (
     <div className="project-slider-section mt-10">
-      <h2 className="text-2xl tablet:text-4xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 ">
+      <h2 className="text-xl tablet:text-4xl laptop:text-4xl laptopl:text-4xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 ">
       Professional Journey
-      </h2>
-      <Slider {...settings} className="slider-container">
-      {timeline.map((item, index) => (
-          <div 
-          key={index} 
-          className="overflow-hidden rounded-lg p-4 w-[250px] sm:w-[80%] mx-auto my-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
- >  
-            <h2 className="text-xl font-bold text-white">{item.role}</h2>
-            <p className="text-md mt-2">{item.company}</p>
-            <p className="text-sm mt-1">{item.date}</p>
-            </div>
-          ))}
-      </Slider>
-      
+      </h2>      
       <div className={styles.scrollContainer}>
           {timeline.map((item, index) => (
           <div key={index} className={styles.timelineCard}

@@ -96,13 +96,13 @@ export default function Home() {
               </h1>
               <h1
                 ref={textTwo}
-                className="text-2xl tablet:text-4xl laptop:text-7xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+                className="text-2xl tablet:text-4xl laptop:text-7xl laptopl:text-7xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
               >
                 {data.headerTaglineTwo}
               </h1>
               <h1
                 ref={textThree}
-                className="text-2xl tablet:text-4xl laptop:text-6xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+                className="text-2xl tablet:text-4xl laptop:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
               >
                 {data.headerTaglineThree}
               </h1>
@@ -112,7 +112,7 @@ export default function Home() {
               >
                 {data.headerTaglineFour}
               </h1>
-              <Socials className="text-2xl tablet:text-4xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5" />
+              <Socials className="text-3xl tablet:text-5xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5" />
             </div>
 
             {/* Image Section */}
@@ -120,8 +120,8 @@ export default function Home() {
               <img
                 src={data.profileImage}
                 alt="Profile"
-                className="rounded-full mx-auto w-72 h-72 object-cover tablet:w-96 tablet:h-96 laptop:w-[28rem] laptop:h-[28rem]"
-                style={{ height: "480px", width: "480px" }}
+                className="rounded-full mx-auto w-72 h-72 object-cover tablet:w-96 tablet:h-96 laptop:w-[30rem] laptop:h-[30rem]"
+                style={{ height: "500px", width: "500px" }}
               />
             </div>
 
@@ -131,7 +131,7 @@ export default function Home() {
         </div>
 
         {/* Add Journey component here */}
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" 
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" 
         ref={aboutRef}>
         <Journey/>
         </div>
