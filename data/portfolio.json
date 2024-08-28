@@ -1,0 +1,112 @@
+{
+    "name": "Ameya's Portfolio",
+    "headerTaglineOne": "Hello 👋",
+    "headerTaglineTwo": "I'm Ameya Rahurkar,",
+    "headerTaglineThree": "Welcome to my profile.",
+    "headerTaglineFour": "",
+    "showCursor": true,
+    "showBlog": false,
+    "darkMode": true,
+    "showResume": true,
+    "socials": [
+      {
+        "id": "1",
+        "title": "Github",
+        "link": "https://github.com/Ameya-20"
+      },
+      {
+        "id": "2",
+        "title": "LinkedIn",
+        "link": "https://www.linkedin.com/in/ameya-r/"
+      },
+      {
+        "id": "5",
+        "title": "Email",
+        "link": "mailto:ameyarahurkar@gmail.com"
+      }
+    ],
+    
+    "projects": [
+      {
+        "id": "1",
+        "title": "Supply Chain Analytics",
+        "description": "Explored HIV medication data shipped worldwide, uncovering patterns and trends over the years. Built Predictive model on 50k shipping records, optimizing routes and reducing transport costs by 12%.",
+        "imageSrc": "https://urbeuniversity.edu/post_assets/2mF2H4FETZcGuZ2RiurT1ErOd2Z0WZIyuVUFklhJ.webp",
+        "url": "https://github.com/Ameya-20/Supply-Chain-Analytics/blob/main/Supply_Chain_Analytics_for_ShippingData.ipynb"
+      },
+      {
+        "id": "2",
+        "title": "Sentiment Prediction Via Text Analytics",
+        "description": "Analyzed 15k Airline Tweets and developed NLP model with 76% accuracy to predict sentiment and understand public perception of airlines critical to improve their services and public outreach.",
+        "imageSrc": "https://img.freepik.com/premium-photo/ai-enabled-sentiment-evaluation-solid-color-background_964851-74720.jpg",
+        "url": "https://github.com/Ameya-20/Airline-Sentiment-Analysis/blob/main/Airline_Tweets_Sentiment_Analysis.ipynb/"
+      },
+      {
+        "id": "3",
+        "title": "Product Recommendation for E-commerce",
+        "description": "Developed recommender system using collaborative filtering for e-commerce store, improving recommendation accuracy by 30% and increasing user engagement. Implemented personalized suggestions, resulting in a 20% increase in conversion and enhanced customer satisfaction.",
+        "imageSrc": "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*k32qF5np2TjKBk2UXsDquQ.jpeg",
+        "url": "https://github.com/Ameya-20/Product-Recommendation/blob/main/Recommendation_System_Ecommerce_Store_Items.ipynb"
+      },
+      {
+        "id": "4",
+        "title": "Market Basket Analysis",
+        "description": "Implemented Apriori algorithm for grocery data, uncovering product associations that increased cross-sell opportunities by 25% and boosted promotional effectiveness by 15%.",
+        "imageSrc": "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*gsP-V6bLLsjxObON.jpg",
+        "url": "https://github.com/Ameya-20/Market-Basket-Analysis/blob/main/Market_Basket_Anaylsis_Grocery_Data_usign_Apriori_Model.ipynb"
+      }
+    ],
+  
+    "resume": {
+      "tagline": "Data Analyst | Business Analyst | Software Engineering",
+      "description": "I excel at converting raw data into actionable insights. Experienced in data analysis and Software Engineering.",
+      "experiences": [
+        {
+          "id": "1",
+          "dates": "July 2023 - May 2024",
+          "type": "Full Time",
+          "position": "Analytics Lead at Carlson Analytics Lab, Minneapolis, MN",
+          "subHeadings": [
+            "Distinguishing Investor vs. Individual Home Buyers for one of the Largest Counties in US.",
+            "Leading Financial Institution who assists in helping first time home buyers."
+          ],
+          "bullets": [
+            "Distinguishing Investor vs. Individual Home Buyers for one of the Largest Counties in US -",
+            "Led analytics on 500k buy/sell transactions to classify buyers using clustering techniques, engineered ETL pipelines to enhance data processing efficiency, and achieved 92% accuracy in buyer classification.",
+            "Developed predictive model and dashboards using Python, SQL and Tableau to track KPIs and visualize investor and individual buyer traits helping in strategies to manage investor impact and address resident complaints.",
+            "Leading Non-Profit Institution who assists in helping first time home buyers -",
+            "Crafted dashboards and presentations assessing institute’s impact across diverse client segments, informing decisions that benefited 9K+ families in Minnesota and secured $2M grant for institution.",
+            "Implemented a random forest predictive model to pinpoint key features contributing to client attrition, enabling tailored interventions and increasing client savings by 28%."
+          ]
+        },
+        {
+          "id": "2",
+          "dates": "August 2021 - May 2023",
+          "type": "Full Time",
+          "position": "Associate Consultant (Analyst) at Oracle",
+          "bullets": [
+            "Data Analyst - State Street Corporation",
+            "Developed and implemented ETL pipelines to streamline stock transactions resulting in a 20% increase in efficiency in managing client transactions valued over $1million each at State Street Corporation.",
+            "Designed interactive dashboards and reports using SQL and Excel to track KPIs leading to a 25% increase in project delivery speed across cross-functional teams in an Agile environment.",
+            "Leveraged technical expertise to build a full-stack web application showcasing SQL proficiency demonstrating analytical capabilities and problem-solving skills.",
+            "Data Analyst - Citibank",
+            "Optimized complex SQL queries and developed ETL pipelines to automate workflows for processing flagged transactions like payments and wire transfers managing a daily volume of over 1000 transactions.",
+            "Collaborated with cross-functional teams to create interactive dashboards and system reports using Excel and Tableau improving analysis and monitoring which resulted in a 20% increase in transaction processing efficiency."
+          ]
+        }
+      ],
+      
+      "education": {
+        "universityName": "Carlson School of Management, University of Minnesota",
+        "universityDate": "2023-2024",
+        "universityPara": "Coursework – Advanced AI, Big Data, Statistics for Data Science, Exploratory and Predictive Analytics"
+      }
+    },
+  
+    "profileImage": ["/images/Pic1.jpg"],
+  
+    "languages": ["Python", "SQL", "R", "Java", "Go", "C++"],
+    "frameworks": ["React", "Typescript", "NodeJs", "Springboot"],
+    "others": ["Excel", "Tableau", "AWS", "ETL", "Exploratory Analytics", "Statistical Analysis", "Project Management", "A/B Testing"]
+  }
+  

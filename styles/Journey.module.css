@@ -1,0 +1,28 @@
+.scrollContainer {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 20px;
+  padding-bottom: 15px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+}
+
+.timelineCard {
+  flex-shrink: 0;
+  width: 260px;
+  min-height: 180px;
+  padding: 20px;
+  background-color: #1f2937;
+  color: white;
+  border-radius: 12px;
+  scroll-snap-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.timelineCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
