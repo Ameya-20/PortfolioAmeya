@@ -35,7 +35,7 @@ const ProjectSlider = () => {
 
   return (
     <div className="project-slider-section mt-10">
-      <h2 className="text-2xl tablet:text-4xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5">
+      <h2 className="text-xl tablet:text-4xl laptop:text-4xl laptopl:text-4xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 ">
       Some of my Projects
       </h2>
       <Slider {...settings} className="slider-container">
