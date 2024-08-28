@@ -71,12 +71,21 @@ const Resume = () => {
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Education</h1>
                 <div className="mt-2">
-                  <h2 className="text-lg">{resume.education.universityName}</h2>
+                  <h2 className="text-lg">{resume.education1.universityName}</h2>
                   <h3 className="text-sm opacity-75">
-                    {resume.education.universityDate}
+                    {resume.education1.universityDate}
                   </h3>
                   <p className="text-sm mt-2 opacity-50">
-                    {resume.education.universityPara}
+                    {resume.education1.universityPara}
+                  </p>
+                </div>
+                <div className="mt-2">
+                  <h2 className="text-lg">{resume.education2.universityName}</h2>
+                  <h3 className="text-sm opacity-75">
+                    {resume.education2.universityDate}
+                  </h3>
+                  <p className="text-sm mt-2 opacity-50">
+                    {resume.education2.universityPara}
                   </p>
                 </div>
               </div>
@@ -98,7 +107,7 @@ const Resume = () => {
 
                   {resume.frameworks && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Frameworks</h2>
+                      <h2 className="text-lg">Libraries and Frameworks</h2>
                       <ul className="list-disc">
                         {resume.frameworks.map((framework, index) => (
                           <li key={index} className="ml-5 py-2">

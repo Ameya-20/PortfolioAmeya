@@ -58,8 +58,8 @@
     ],
   
     "resume": {
-      "tagline": "Data Analyst | Business Analyst | Software Engineering",
-      "description": "I excel at converting raw data into actionable insights. Experienced in data analysis and Software Engineering.",
+      "tagline": "Software Engineering | Data Science ",
+      "description": "I am a Master's graduate with nearly 4 years of experience and my goal is to leverage my technical expertise to solve complex business problems and drive impactful results",
       "experiences": [
         {
           "id": "1",
@@ -96,17 +96,28 @@
         }
       ],
       
-      "education": {
+     
+
+      "education1": {
         "universityName": "Carlson School of Management, University of Minnesota",
-        "universityDate": "2023-2024",
-        "universityPara": "Coursework – Advanced AI, Big Data, Statistics for Data Science, Exploratory and Predictive Analytics"
-      }
+        "universityDate": "Master of Science in Business Analytics - 2024",
+        "universityPara": "Coursework - Advanced AI, Big Data, Advanced Statistics, Python Programming, Exploratory and Predictive Analytics"
+      },
+
+      "education2": {
+        "universityName": "K.J Somaiya College of Engineering, Univeraity of Mumbai",
+        "universityDate": "Bachelor of Technology in Information Technology - 2021",
+        "universityPara": "Coursework - Applied Mathematics, Development Frameworks, AI, Data Structures and Algorithms"
+      },
+
+
+      "languages": ["Python", "SQL", "R", "Java", "C#", "Go", "C++" ],
+      "frameworks": ["React", "Springboot", ".Net", "Seaborn", "Pandas", "TensorFlow"],
+      "others": ["Excel", "Tableau", "AWS", "ETL", "Exploratory Analytics", "Statistical Analysis", "Project Management", "A/B Testing"]
+   
     },
   
-    "profileImage": ["/images/Pic1.jpg"],
+    "profileImage": ["/images/Pic1.jpg"]
   
-    "languages": ["Python", "SQL", "R", "Java", "Go", "C++"],
-    "frameworks": ["React", "Typescript", "NodeJs", "Springboot"],
-    "others": ["Excel", "Tableau", "AWS", "ETL", "Exploratory Analytics", "Statistical Analysis", "Project Management", "A/B Testing"]
-  }
+}
   
