@@ -30,7 +30,7 @@
       {
         "id": "1",
         "title": "Supply Chain Analytics",
-        "description": "Explored HIV medication data shipped worldwide and built predictive model on 50k shipping records to optimize routes and reduce transport",
+        "description": "Explored shipping data and built predictive model on 50k shipping records to optimize routes and reduce transport",
         "imageSrc": "https://urbeuniversity.edu/post_assets/2mF2H4FETZcGuZ2RiurT1ErOd2Z0WZIyuVUFklhJ.webp",
         "url": "https://github.com/Ameya-20/Supply-Chain-Analytics/blob/main/Supply_Chain_Analytics_for_ShippingData.ipynb"
       },
@@ -44,61 +44,49 @@
       {
         "id": "3",
         "title": "Product Recommendation for E-commerce",
-        "description": "Developed recommender system for e-commerce store to increase user engagement and enhance customer satisfaction.",
+        "description": "Developed recommender system for e-commerce store to boost user engagement and customer satisfaction",
         "imageSrc": "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*k32qF5np2TjKBk2UXsDquQ.jpeg",
         "url": "https://github.com/Ameya-20/Product-Recommendation/blob/main/Recommendation_System_Ecommerce_Store_Items.ipynb"
       },
       {
         "id": "4",
         "title": "Market Basket Analysis",
-        "description": "Implemented Apriori algorithm for product associations to increased cross-sell opportunities and boost Sales",
+        "description": "Implemented Apriori algorithm for product associations to increased cross-sell opportunities and boost sales",
         "imageSrc": "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*gsP-V6bLLsjxObON.jpg",
         "url": "https://github.com/Ameya-20/Market-Basket-Analysis/blob/main/Market_Basket_Anaylsis_Grocery_Data_usign_Apriori_Model.ipynb"
       },
       {
         "id": "5",
         "title": "Tic Tac Toe Game",
-        "description": "Developed Tic Tac Toe using Goloang in Agile Development Environment",
+        "description": "Developed Tic Tac Toe using Golang in Agile Development Environment",
         "imageSrc": "https://global.discourse-cdn.com/bubble/original/3X/4/c/4c583a00f6a44768aa32b706547ae96f0162f1a3.png",
         "url": "https://github.com/Ameya-20/GolangGame/tree/master/TicTacToeGame/tictactoe"
       }
     ],
   
     "resume": {
-      "tagline": "Software Engineering | Data Science ",
+      "tagline": "Business Analytics | Software Engineering | Data Engineering ",
       "description": "I am a Master's graduate with nearly 4 years of experience and my goal is to leverage my technical expertise to solve complex business problems and drive impactful results",
       "experiences": [
         {
           "id": "1",
           "dates": "July 2023 - May 2024",
           "type": "Full Time",
-          "position": "Analytics Lead at Carlson Analytics Lab, Minneapolis, MN",
+          "position": "Analytics and Development Lead at Carlson Analytics Lab, Minneapolis, MN",
           "subHeadings": [
-            "Distinguishing Investor vs. Individual Home Buyers for one of the Largest Counties in US.",
-            "Leading Financial Institution who assists in helping first time home buyers."
+            
           ],
           "bullets": [
-            "Distinguishing Investor vs. Individual Home Buyers for one of the Largest Counties in US -",
-            "Led analytics on 500k buy/sell transactions to classify buyers using clustering techniques, engineered ETL pipelines to enhance data processing efficiency, and achieved 92% accuracy in buyer classification.",
-            "Developed predictive model and dashboards using Python, SQL and Tableau to track KPIs and visualize investor and individual buyer traits helping in strategies to manage investor impact and address resident complaints.",
-            "Leading Non-Profit Institution who assists in helping first time home buyers -",
-            "Crafted dashboards and presentations assessing institute’s impact across diverse client segments, informing decisions that benefited 9K+ families in Minnesota and secured $2M grant for institution.",
-            "Implemented a random forest predictive model to pinpoint key features contributing to client attrition, enabling tailored interventions and increasing client savings by 28%."
-          ]
+            "Skills - Python, SQL, Tableau, ETL, AWS, Data Analysis and Visualization, Predictive Modelling, Machine Learning, Jira"
+            ]
         },
         {
           "id": "2",
           "dates": "August 2021 - May 2023",
           "type": "Full Time",
-          "position": "Associate Consultant (Analyst) at Oracle",
+          "position": "Associate Consultant at Oracle",
           "bullets": [
-            "Data Analyst - State Street Corporation",
-            "Developed and implemented ETL pipelines to streamline stock transactions resulting in a 20% increase in efficiency in managing client transactions valued over $1million each at State Street Corporation.",
-            "Designed interactive dashboards and reports using SQL and Excel to track KPIs leading to a 25% increase in project delivery speed across cross-functional teams in an Agile environment.",
-            "Leveraged technical expertise to build a full-stack web application showcasing SQL proficiency demonstrating analytical capabilities and problem-solving skills.",
-            "Data Analyst - Citibank",
-            "Optimized complex SQL queries and developed ETL pipelines to automate workflows for processing flagged transactions like payments and wire transfers managing a daily volume of over 1000 transactions.",
-            "Collaborated with cross-functional teams to create interactive dashboards and system reports using Excel and Tableau improving analysis and monitoring which resulted in a 20% increase in transaction processing efficiency."
+            "Skills - SQL, Java, Springboot, React.js, Kafka, ETL, Distributed Systems, RestAPIs, Automating Workflows, Excel, Agile"
           ]
         }
       ],
@@ -118,7 +106,7 @@
       },
 
 
-      "languages": ["Python", "SQL", "R", "Java", "C#", "Go", "C++" ],
+      "languages": ["Python", "SQL", "Java", "C#", "Go", "R"],
       "frameworks": ["React", "Springboot", ".Net", "Seaborn", "Pandas", "TensorFlow"],
       "others": ["Excel", "Tableau", "AWS", "ETL", "Exploratory Analytics", "Statistical Analysis", "Project Management", "A/B Testing"]
    
