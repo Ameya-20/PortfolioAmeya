@@ -11,19 +11,9 @@ import styles from "../styles/Journey.module.css";
 const Journey = () => {
   const timeline = [
     {
-      role: "IT Lead",
-      company: "Efarm - K.J. Somaiya College of Engineering",
-      date: "Jan 2019 - Feb 2019",
-    },
-    {
-      role: "Analytics and Development Lead",
-      company: "Starspark, Mumbai",
-      date: "Jan 2022 - May 2021",
-    },
-    {
-      role: "Software Engineering Intern - Golang",
-      company: "Swabhav Techlabs, Mumbai",
-      date: "March 2022 - May 2021",
+      role: "Analytics Lead",
+      company: "Carlson Analytics Lab, Minneapolis, MN",
+      date: "July 2023 - May 2024",
     },
     {
       role: "Associate Consultant (Analyst)",
@@ -31,9 +21,19 @@ const Journey = () => {
       date: "August 2021 - May 2023",
     },
     {
-      role: "Analytics Lead",
-      company: "Carlson Analytics Lab, Minneapolis, MN",
-      date: "July 2023 - May 2024",
+      role: "Software Engineering Intern - Golang",
+      company: "Swabhav Techlabs, Mumbai",
+      date: "March 2022 - May 2021",
+    },
+    {
+      role: "Analytics and Development Lead",
+      company: "Starspark, Mumbai",
+      date: "June 2020 - May 2021",
+    },
+    {
+      role: "IT Lead",
+      company: "Efarm - K.J. Somaiya College of Engineering",
+      date: "January 2019 - March 2019",
     },
   ];
 
@@ -69,7 +69,7 @@ const Journey = () => {
       <div className={styles.scrollContainer}>
           {timeline.map((item, index) => (
           <div key={index} className={styles.timelineCard}
-          style={{ height: "200px", width: "350px" }}>
+          style={{ height: "200px", width: "235px" }}>
             <h2 className="text-xl font-bold">{item.role}</h2>
             <p className="text-md mt-2">{item.company}</p>
             <p className="text-sm mt-1">{item.date}</p>

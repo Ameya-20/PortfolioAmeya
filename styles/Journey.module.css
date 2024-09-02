@@ -4,7 +4,7 @@
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   gap: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   scrollbar-width: thin;
   scrollbar-color: #888 transparent;
 }
@@ -13,7 +13,7 @@
   flex-shrink: 0;
   width: 250px; /* Updated width */
   min-height: 180px;
-  padding: 20px;
+  padding: 13px;
   background-color: #061b3b;
   color: white;
   border-radius: 12px;

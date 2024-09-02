@@ -30,9 +30,9 @@ const Skills = () => {
       infinite: true,
       speed: 800,
       slidesToShow: 6, // Show 3 slides on large screens
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       autoplay: true, // Enables autoplay
-      autoplaySpeed: 1500, // Speed of autoplay in milliseconds
+      autoplaySpeed: 1000, // Speed of autoplay in milliseconds
       responsive: [
         {
           breakpoint: 1024,
@@ -49,7 +49,7 @@ const Skills = () => {
       ]
     };
   return (
-    <div className="skills-section mt-10 laptop:mt-20 p-5">
+    <div className="skills-section mt-10 laptop:mt-20">
       <h2 className="text-xl tablet:text-4xl laptop:text-4xl laptopl:text-4xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 ">
       Skills
       </h2>
