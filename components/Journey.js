@@ -21,7 +21,7 @@ const Journey = () => {
       date: "August 2021 - May 2023",
     },
     {
-      role: "Software Engineering Intern - Golang",
+      role: "Software Engineer - Golang",
       company: "Swabhav Techlabs, Mumbai",
       date: "March 2022 - May 2021",
     },
@@ -69,7 +69,7 @@ const Journey = () => {
       <div className={styles.scrollContainer}>
           {timeline.map((item, index) => (
           <div key={index} className={styles.timelineCard}
-          style={{ height: "200px", width: "235px" }}>
+          style={{ height: "200px", width: "260px" }}>
             <h2 className="text-xl font-bold">{item.role}</h2>
             <p className="text-md mt-2">{item.company}</p>
             <p className="text-sm mt-1">{item.date}</p>
