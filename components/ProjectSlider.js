@@ -34,10 +34,16 @@ const ProjectSlider = () => {
   };
 
   return (
-    <div className="project-slider-section mt-10">
-      <h2 className="text-xl tablet:text-4xl laptop:text-4xl laptopl:text-4xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 ">
-      Some Projects
-      </h2>
+    <div className="project-slider-section mt-10"style={{ paddingTop: "20px"}}>
+      <div style={{ fontSize: "250%" }}>
+        <h2 style={{ marginBottom: "0px", textAlign:"center" }}>Some Projects</h2>      
+        <img
+          src="/images/underline.png"
+          alt="underline"
+          style={{ width: "100px", height: "auto", margin: "0 auto", paddingBottom: "10px" }}
+        />
+      </div>
+    
       <Slider {...settings} className="slider-container">
 
       {data.projects.map((project) => (

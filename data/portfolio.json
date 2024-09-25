@@ -1,8 +1,9 @@
 {
     "name": "Ameya's Portfolio",
+    "textOne": "Hello 👋",
     "headerTaglineOne": "Hello 👋",
-    "headerTaglineTwo": "I'm Ameya,",
-    "headerTaglineThree": "Welcome To My Profile",
+    "headerTaglineTwo": "I'm Ameya Rahurkar 😎",
+    "headerTaglineThree": "Welcome To My Website 🖥️🎊 ",
     "headerTaglineFour": "",
     "showCursor": true,
     "showBlog": false,
@@ -26,47 +27,116 @@
       }
     ],
     
+    "experience": [
+      {
+        "id": "1",
+        "title": "Analytics Development Lead",
+        "description": "July 2023 - Present",
+        "imageSrc": "https://media.licdn.com/dms/image/v2/D560BAQHIXOGk3epZCA/company-logo_200_200/company-logo_200_200/0/1704904313217/carlson_analytics_lab_logo?e=1735171200&v=beta&t=dgxsFZ9mdLLF9INWNXTbNrJ8E4RwqAxITwhdKoz3qh8",
+        "url": ""
+      },
+      {
+        "id": "2",
+        "title": "Associate Consultant",
+        "description": "August 2021 - May 2023",
+        "imageSrc": "https://logos-world.net/wp-content/uploads/2020/09/Oracle-Logo-700x394.png",
+        "url": ""
+      },
+      {
+        "id": "3",
+        "title": "Sofware Engineer",
+        "description": "May 2021 - June 2021",
+        "imageSrc": "https://media.licdn.com/dms/image/v2/C4D0BAQGBROCDvHKb1A/company-logo_200_200/company-logo_200_200/0/1631862145456?e=1735171200&v=beta&t=VvmjmgEzkl7MBxPosRcBUghHw0WWjIJASDkI1eyNP4w",
+        "url": ""
+      },
+      {
+        "id": "4",
+        "title": "Software Eningeer",
+        "description": "June 2020 - May 2021",
+        "imageSrc": "https://www.somaiya.edu/assets/university/img/svv-emblem.svg",
+        "url": ""
+      }, 
+      {
+        "id": "5",
+        "title": "Sofware Engineer",
+        "description": "May 2019 - June 2019",
+        "imageSrc": "https://www.jmaespl.com/assets/images/SJMA_Logo.PNG",
+        "url": ""
+      },
+      {
+        "id": "6",
+        "title": "Web and Android Developer",
+        "description": "Jan 2019 - March 2019",
+        "imageSrc": ["/images/Efarm.png"],
+        "url": ""
+      }
+
+    ],
+
     "projects": [
       {
         "id": "1",
         "title": "Supply Chain Analytics",
         "description": "Explored shipping data and built predictive model on 50k shipping records to optimize routes and reduce transport",
-        "imageSrc": "https://urbeuniversity.edu/post_assets/2mF2H4FETZcGuZ2RiurT1ErOd2Z0WZIyuVUFklhJ.webp",
+        "imageSrc": "https://cdn.dribbble.com/users/2421551/screenshots/6221780/iota_supplychains_v12.gif",
         "url": "https://github.com/Ameya-20/Supply-Chain-Analytics/blob/main/Supply_Chain_Analytics_for_ShippingData.ipynb"
       },
       {
         "id": "2",
-        "title": "Sentiment Prediction Via Text Analytics",
-        "description": "Analyzed 15k Tweets and developed NLP model to predict public sentiment and perception of leading airlines",
-        "imageSrc": "https://img.freepik.com/premium-photo/ai-enabled-sentiment-evaluation-solid-color-background_964851-74720.jpg",
-        "url": "https://github.com/Ameya-20/Airline-Sentiment-Analysis/blob/main/Airline_Tweets_Sentiment_Analysis.ipynb/"
+        "title": "Website with SOAP/SQL",
+        "description": "Developed responsive corporate website, ensuring dynamic content management",
+        "imageSrc": "https://indoanalytica.com/static/images/Web-design-4.gif",
+        "url": ""
       },
+
       {
         "id": "3",
-        "title": "Product Recommendation for E-commerce",
-        "description": "Developed recommender system for e-commerce store to boost user engagement and customer satisfaction",
-        "imageSrc": "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*k32qF5np2TjKBk2UXsDquQ.jpeg",
-        "url": "https://github.com/Ameya-20/Product-Recommendation/blob/main/Recommendation_System_Ecommerce_Store_Items.ipynb"
+        "title": "Sentiment Analytsis",
+        "description": "Analyzed 15k Tweets and developed NLP model to predict public sentiment and perception of leading airlines",
+        "imageSrc": "https://si.wsj.net/public/resources/images/OG-AJ079_TWITSE_TOP_20161206131215.gif",
+        "url": "https://github.com/Ameya-20/Airline-Sentiment-Analysis/blob/main/Airline_Tweets_Sentiment_Analysis.ipynb/"
+      },
+      
+      {
+        "id": "7",
+        "title": "Retro Snake Game",
+        "description": "Developed Retro Snake Game Using C# and .NET Framework",
+        "imageSrc": "https://img.itch.zone/aW1hZ2UvMTA2OTAzOS82MTI0MTA4LmdpZg==/original/8Df50e.gif",
+        "url": "https://github.com/Ameya-20/GolangGame/tree/master/TicTacToeGame/tictactoe"
       },
       {
         "id": "4",
-        "title": "Market Basket Analysis",
-        "description": "Implemented Apriori algorithm for product associations to increased cross-sell opportunities and boost sales",
-        "imageSrc": "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*gsP-V6bLLsjxObON.jpg",
-        "url": "https://github.com/Ameya-20/Market-Basket-Analysis/blob/main/Market_Basket_Anaylsis_Grocery_Data_usign_Apriori_Model.ipynb"
+        "title": "E-commerce Recommender System",
+        "description": "Developed recommender system for e-commerce store to boost user engagement and customer satisfaction",
+        "imageSrc": "https://visme.co/blog/wp-content/uploads/2020/02/header-1200.gif",
+        "url": "https://github.com/Ameya-20/Product-Recommendation/blob/main/Recommendation_System_Ecommerce_Store_Items.ipynb"
       },
       {
         "id": "5",
+        "title": "Web and Android Development",
+        "description": "Developed Website and Android application for monitoring and controlling a farming system",
+        "imageSrc": "https://cdn.dribbble.com/users/1118891/screenshots/4121987/media/5a4bcdded6380d23704559e057e5bd6f.gif",
+        "url": ""
+      },
+      {
+        "id": "6",
+        "title": "Market Basket Analysis",
+        "description": "Implemented Apriori algorithm for product associations to increased cross-sell opportunities and boost sales",
+        "imageSrc": "https://shoppermotion.com/wp-content/uploads/2019/03/Shopping_tools-1.gif",
+        "url": "https://github.com/Ameya-20/Market-Basket-Analysis/blob/main/Market_Basket_Anaylsis_Grocery_Data_usign_Apriori_Model.ipynb"
+      },
+      {
+        "id": "8",
         "title": "Tic Tac Toe Game",
         "description": "Developed Tic Tac Toe using Golang in Agile Development Environment",
-        "imageSrc": "https://global.discourse-cdn.com/bubble/original/3X/4/c/4c583a00f6a44768aa32b706547ae96f0162f1a3.png",
+        "imageSrc": "https://media1.giphy.com/media/Awg0daMM4WxO9ee5vF/200w.gif?cid=6c09b95220uivk9h80484cpxbgvi4bxoli9loyjkiot2jp51&ep=v1_gifs_search&rid=200w.gif&ct=g",
         "url": "https://github.com/Ameya-20/GolangGame/tree/master/TicTacToeGame/tictactoe"
       }
     ],
   
     "resume": {
-      "tagline": "Business Analytics | Software Engineering | Data Engineering ",
-      "description": "I am a Master's graduate with nearly 4 years of experience and my goal is to leverage my technical expertise to solve complex business problems and drive impactful results",
+      "tagline": "Data Science and Software Engineering",
+      "description": "I am a Master's graduate with 4 years of experience and my goal is to leverage my technical expertise to solve complex business problems and drive impactful results",
       "experiences": [
         {
           "id": "1",

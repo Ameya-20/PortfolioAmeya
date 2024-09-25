@@ -34,7 +34,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleSkillsScroll, isBlo
                 {data.darkMode && (
                   <Button
                     onClick={() =>
-                      setTheme(theme === "dark" ? "light" : "dark")
+                      setTheme(theme === "light" ? "dark" : "light")
                     }
                   >
                     <img
@@ -70,8 +70,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleSkillsScroll, isBlo
               {!isBlog ? (
                 <div className="grid grid-cols-1">
                   
-                  <Button onClick={handleAboutScroll}>About</Button>
-                  <Button onClick={handleWorkScroll}>Work</Button>
+                  <Button onClick={handleAboutScroll}>Experience</Button>
+                  <Button onClick={handleWorkScroll}>Projects</Button>
                   
                   {showResume && (
                     <Button
@@ -122,9 +122,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleSkillsScroll, isBlo
         </h1>
         {!isBlog ? (
           <div className="flex">
-            <Button onClick={handleAboutScroll}>About</Button>
-            <Button onClick={handleWorkScroll}>Work</Button>
-            
+            <Button onClick={handleAboutScroll}>Experience</Button>
+            <Button onClick={handleWorkScroll}>Projects</Button>
             {showResume && (
               <Button
                 onClick={() => router.push("/resume")}

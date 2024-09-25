@@ -12,7 +12,7 @@ import Cursor from "../components/Cursor";
 import Skills from "../components/Skills"; // Import the Skills component
 import ProjectSlider from "../components/ProjectSlider";
 import Journey from "../components/Journey";  // Import Journey component
-
+import Typical from 'react-typical'; 
 // Local Data
 import data from "../data/portfolio.json";
 
@@ -28,11 +28,16 @@ export default function Home() {
 
   // Handling Scroll
   const handleWorkScroll = () => {
-    window.scrollTo({
-      top: workRef.current.offsetTop,
-      left: 0,
-      behavior: "smooth",
-    });
+    if (workRef.current) {
+      window.scrollTo({
+        top: workRef.current.offsetTop,
+        left: 0,
+        behavior: "smooth",
+      });
+    } else {
+      console.error("aboutRef is not defined.");
+    };
+
   };
 
   const handleAboutScroll = () => {
@@ -46,19 +51,18 @@ export default function Home() {
       console.error("aboutRef is not defined.");
     };
 
+  };
+
   const handleSkillsScroll = () => {
-      if (skillsRef.current) {
-        window.scrollTo({
-          top: skillsRef.current.offsetTop,
-          left: 0,
-          behavior: "smooth",
-        });
-      } else {
-        console.error("skillsRef is not defined.");
-      }
-  }
-
-
+    if (aboutRef.current) {
+      window.scrollTo({
+        top: skillsRef.current.offsetTop,
+        left: 0,
+        behavior: "smooth",
+      });
+    } else {
+      console.error("aboutRef is not defined.");
+    };
   };
   useIsomorphicLayoutEffect(() => {
     stagger(
@@ -83,37 +87,36 @@ export default function Home() {
           className="text-2xl tablet:text-5xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
+          handleSkillsScroll={handleSkillsScroll}
         />
-        <div className="laptop:mt-20 mt-10">
+        <div className="laptop:mt-5 mt-5">
           {/* Create a flex or grid layout for the image and text */}
           <div className="flex flex-col-reverse laptop:flex-row mt-5 items-center">
-            <div className="w-full laptop:w-1/2">
-              <h1
-                ref={textOne}
-                className="text-2xl tablet:text-4xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
-              >
-                {data.headerTaglineOne}
-              </h1>
-              <h1
-                ref={textTwo}
-                className="text-2xl tablet:text-4xl laptop:text-7xl laptopl:text-7xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-              >
-                {data.headerTaglineTwo}
-              </h1>
-              <h1
-                ref={textThree}
-                className="text-2xl tablet:text-4xl laptop:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-              >
-                {data.headerTaglineThree}
-              </h1>
-              <h1
-                ref={textFour}
-                className="text-2xl tablet:text-4xl laptop:text-8xl laptopl:text-7xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-              >
-                {data.headerTaglineFour}
-              </h1>
-              <Socials className="text-3xl tablet:text-5xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5" />
-            </div>
+          <div className="w-full laptop:w-1/2">
+      <h1
+        ref={textOne}
+        className="text-2xl tablet:text-4xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+      >
+        {data.headerTaglineOne}
+      </h1>
+
+      <h1
+        className="text-2xl tablet:text-4xl laptop:text-6xl laptopl:text-7xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 mt-10"
+      >
+        <Typical
+          steps={[
+            'Welcome To My Website 💐🎊', 2000,
+            'I am Ameya Rahurkar ✌️😎', 2000,
+            
+          ]}
+          loop={Infinity}
+          wrapper="p"
+        />
+      </h1>
+
+      <Socials className="text-3xl tablet:text-5xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5" />
+    </div>
+  
 
             {/* Image Section */}
             <div className="flex-1 p-5">

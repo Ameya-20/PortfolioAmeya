@@ -28,11 +28,11 @@ const Skills = () => {
     const settings = {
       dots: true,
       infinite: true,
-      speed: 800,
+      speed: 700,
       slidesToShow: 6, // Show 3 slides on large screens
       slidesToScroll: 1,
       autoplay: true, // Enables autoplay
-      autoplaySpeed: 1000, // Speed of autoplay in milliseconds
+      autoplaySpeed: 10, // Speed of autoplay in milliseconds
       responsive: [
         {
           breakpoint: 1024,
@@ -50,14 +50,21 @@ const Skills = () => {
     };
   return (
     <div className="skills-section mt-10 laptop:mt-20">
-      <h2 className="text-xl tablet:text-4xl laptop:text-4xl laptopl:text-4xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 ">
-      Skills
-      </h2>
-      <Slider {...settings} className="slider-container">
+      <div style={{ fontSize: "250%" }}>
+        <h2 style={{ textAlign:"center" }}>Skills</h2>      
+        <img
+          src="/images/underline.png"
+          alt="underline"
+          style={{ marginBottom: "20px",width: "100px", height: "auto", margin: "0 auto" , paddingBottom: "10px" }}
+        />
+      </div>
+      <Slider {...settings} className="slider-container"
+        style={{textAlign:"center", marginTop:"20px" }}
+      >
 
       {skills.map((skill, index) => (
           <div key={index} className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
-          style={{textAlign:"center" }}>
+          style={{textAlign:"center", marginTop:"20px" }}>
             <span className="text-3xl mb-4 text-white flex justify-center items-center"  style={{textAlign:"center" }}>✔️</span>
             <h2 className="flex justify-center items-center">{skill.name}</h2>
             <p className="text-sm text-gray-500 flex justify-center items-center">{skill.level}</p>
