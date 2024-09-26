@@ -2,6 +2,7 @@ import { useRef } from "react";
 import Header from "../components/Header";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
+import Education from "../components/Education";
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
@@ -19,6 +20,7 @@ import data from "../data/portfolio.json";
 export default function Home() {
   // Ref
   const workRef = useRef();
+  const educationRef = useRef();
   const aboutRef = useRef();
   const skillsRef = useRef();
   const textOne = useRef();
@@ -61,9 +63,22 @@ export default function Home() {
         behavior: "smooth",
       });
     } else {
-      console.error("aboutRef is not defined.");
+      console.error("skillsRef is not defined.");
     };
   };
+
+  const handleEducationScroll = () => {
+    if (aboutRef.current) {
+      window.scrollTo({
+        top: educationRef.current.offsetTop,
+        left: 0,
+        behavior: "smooth",
+      });
+    } else {
+      console.error("eduref is not defined.");
+    };
+  };
+
   useIsomorphicLayoutEffect(() => {
     stagger(
       [textOne.current, textTwo.current, textThree.current, textFour.current],
@@ -88,6 +103,7 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
           handleSkillsScroll={handleSkillsScroll}
+          handleEducationScroll={handleEducationScroll}
         />
         <div className="laptop:mt-5 mt-5">
           {/* Create a flex or grid layout for the image and text */}
@@ -123,8 +139,7 @@ export default function Home() {
               <img
                 src={data.profileImage}
                 alt="Profile"
-                className="rounded-full mx-auto w-72 h-72 object-cover tablet:w-96 tablet:h-96 laptop:w-[30rem] laptop:h-[30rem]"
-                style={{ height: "500px", width: "500px" }}
+                className="rounded-full object-cover h-96 w-80 laptop:h-[600px] laptop:w-[600px] mobile:h-64 mobile:w-64 object-cover"
               />
             </div>
 
@@ -142,6 +157,11 @@ export default function Home() {
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
         <ProjectSlider/>
         </div>
+
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={educationRef}>
+        <Education/>
+        </div>
+
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={skillsRef}>
         <Skills/>

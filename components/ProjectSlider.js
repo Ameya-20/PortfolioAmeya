@@ -62,26 +62,3 @@ const ProjectSlider = () => {
 };
 
 export default ProjectSlider;
-/**
- <WorkCard
-                key={project.id}
-                img={project.imageSrc}
-                name={project.title}
-                description={project.description}
-                onClick={() => window.open(project.url)}
-              />
- 
- {sliderProjects.map((item, index) => (
-        
-        <div key={index} className={styles.timelineCard} style={{ height: "300px", width: "280px" }}>
-            
-            <img></img>
-            <h2 className="text-xl font-bold">{item.role}</h2>
-            <p className="text-md mt-2">{item.company}</p>
-            <p className="text-sm mt-1">{item.date}</p>
-        
-        </div>
-        
-        ))}
-  
-              */

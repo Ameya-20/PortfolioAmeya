@@ -6,7 +6,7 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, handleSkillsScroll, isBlog }) => {
+const Header = ({ handleWorkScroll, handleAboutScroll, handleSkillsScroll, handleEducationScroll, isBlog }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -72,6 +72,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleSkillsScroll, isBlo
                   
                   <Button onClick={handleAboutScroll}>Experience</Button>
                   <Button onClick={handleWorkScroll}>Projects</Button>
+                  <Button onClick={handleEducationScroll}>Education</Button>
                   
                   {showResume && (
                     <Button
@@ -81,7 +82,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleSkillsScroll, isBlo
                       Resume
                     </Button>
                   )}
-
                   <Button onClick={handleSkillsScroll}>Skills</Button>
                 </div>
               ) : (
@@ -124,6 +124,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleSkillsScroll, isBlo
           <div className="flex">
             <Button onClick={handleAboutScroll}>Experience</Button>
             <Button onClick={handleWorkScroll}>Projects</Button>
+            <Button onClick={handleEducationScroll}>Education</Button>
             {showResume && (
               <Button
                 onClick={() => router.push("/resume")}

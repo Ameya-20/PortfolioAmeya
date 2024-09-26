@@ -64,7 +64,7 @@ const Skills = () => {
 
       {skills.map((skill, index) => (
           <div key={index} className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
-          style={{textAlign:"center", marginTop:"20px" }}>
+          style={{textAlign:"center", marginTop:"30px" }}>
             <span className="text-3xl mb-4 text-white flex justify-center items-center"  style={{textAlign:"center" }}>✔️</span>
             <h2 className="flex justify-center items-center">{skill.name}</h2>
             <p className="text-sm text-gray-500 flex justify-center items-center">{skill.level}</p>

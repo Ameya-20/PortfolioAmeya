@@ -13,7 +13,7 @@ const Journey = () => {
   return (
     <div className="project-slider-section" style={{ textAlign: "center", paddingTop: "10px" }}>
       <div style={{ fontSize: "250%" }}>
-        <h2 style={{ marginTop: "0px" }}>Professional Journey</h2>      
+        <h2 style={{ marginTop: "0px" }}>Experience</h2>      
         <img
           src="/images/underline.png"
           alt="underline"
@@ -40,26 +40,3 @@ const Journey = () => {
 };
 
 export default Journey;
-/**
- *           {timeline.map((item, index) => (
-          <div key={index} className={styles.timelineCard}
-          style={{ height: "200px", width: "260px" }}>
-            <img></img>
-            <h2 className="text-xl font-bold">{item.role}</h2>
-            <p className="text-md mt-2">{item.company}</p>
-            <p className="text-sm mt-1">{item.date}</p>
-            </div>
-          ))}
-
- * 
- * <div className={styles.scrollContainer}>
-          {timeline.map((item, index) => (
-          <div key={index} className={styles.timelineCard}
-          style={{ height: "200px", width: "350px" }}>
-            <h2 className="text-xl font-bold">{item.role}</h2>
-            <p className="text-md mt-2">{item.company}</p>
-            <p className="text-sm mt-1">{item.date}</p>
-            </div>
-          ))}
-      </div>
- */
