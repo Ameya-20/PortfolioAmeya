@@ -77,7 +77,7 @@
       {
         "id": "1",
         "title": "Supply Chain Analytics",
-        "description": "Explored shipping data and built predictive model on 50k shipping records to optimize routes and reduce transport",
+        "description": "Explored 50k shipping records and built predictive model to optimize routes reducing transportation cost",
         "imageSrc": "https://cdn.dribbble.com/users/2421551/screenshots/6221780/iota_supplychains_v12.gif",
         "url": "https://github.com/Ameya-20/Supply-Chain-Analytics/blob/main/Supply_Chain_Analytics_for_ShippingData.ipynb"
       },
@@ -107,14 +107,14 @@
       {
         "id": "4",
         "title": "E-commerce Recommender System",
-        "description": "Developed recommender system for e-commerce store to boost user engagement and customer satisfaction",
+        "description": "Developed recommender system for e-commerce store to boost sales and user engagement",
         "imageSrc": "https://visme.co/blog/wp-content/uploads/2020/02/header-1200.gif",
         "url": "https://github.com/Ameya-20/Product-Recommendation/blob/main/Recommendation_System_Ecommerce_Store_Items.ipynb"
       },
       {
         "id": "5",
         "title": "Web and Android Development",
-        "description": "Developed Website and Android application for monitoring and controlling a farming system",
+        "description": "Developed Website and Android application for monitoring and controlling IoT farming system",
         "imageSrc": "https://cdn.dribbble.com/users/1118891/screenshots/4121987/media/5a4bcdded6380d23704559e057e5bd6f.gif",
         "url": ""
       },
