@@ -105,8 +105,8 @@ export default function Home() {
       >
         <Typical
           steps={[
-            'Welcome To My Website 💐🎊', 2000,
-            'I am Ameya Rahurkar ✌️😎', 2000,
+            'Welcome To My Website 💐🎊', 1500,
+            'I am Ameya Rahurkar ✌️😎', 1500,
             
           ]}
           loop={Infinity}

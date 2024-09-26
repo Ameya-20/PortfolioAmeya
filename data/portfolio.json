@@ -176,9 +176,9 @@
       },
 
 
-      "languages": ["Python", "SQL", "Java", "C#", "Go", "R"],
-      "frameworks": ["React", "Springboot", ".Net", "Seaborn", "Pandas", "TensorFlow"],
-      "others": ["Excel", "Tableau", "AWS", "ETL", "Exploratory Analytics", "Statistical Analysis", "Project Management", "A/B Testing"]
+      "languages": ["Python", "Java", "C++", "Go", "SQL", "MySQL", "Kafka", "Spark"],
+      "frameworks": ["React.js", "Next.js", "Springboot", "GraphQL", ".Net","SOAP", "Kubernetes", "Agile/Scrum"],
+      "others": ["AWS (S3, Sagemaker)", "ETL/Data Piplelines", "Machine Learning", "Data Structures", "Algorithms", "CI/CD", "Tableau", "A/B Testing"]
    
     },
   
