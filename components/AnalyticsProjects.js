@@ -8,7 +8,7 @@ import data from '../data/portfolio.json';
 import styles from "../styles/Journey.module.css";
 import WorkCard from "../components/WorkCard";
 
-const ProjectSlider = () => {
+const AnalyticsProjects = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -36,7 +36,7 @@ const ProjectSlider = () => {
   return (
     <div className="project-slider-section mt-10"style={{ paddingTop: "20px"}}>
       <div style={{ fontSize: "250%" }}>
-        <h2 style={{ marginBottom: "0px", textAlign:"center" }}>Software Projects</h2>      
+        <h2 style={{ marginBottom: "0px", textAlign:"center" }}>Data Science and Analytics Projects</h2>      
         <img
           src="/images/underline.png"
           alt="underline"
@@ -46,7 +46,7 @@ const ProjectSlider = () => {
     
       <Slider {...settings} className="slider-container">
 
-      {data.projects1.map((project) => (
+      {data.projects2.map((project) => (
               <WorkCard
                 key={project.id}
                 img={project.imageSrc}
@@ -61,4 +61,4 @@ const ProjectSlider = () => {
   );
 };
 
-export default ProjectSlider;
+export default AnalyticsProjects;

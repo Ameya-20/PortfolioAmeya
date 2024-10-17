@@ -73,7 +73,38 @@
 
     ],
 
-    "projects": [
+    "projects1": [
+      {
+        "id": "1",
+        "title": "Corporate Website with Flask and SQL",
+        "description": "Developed responsive corporate website using Python, ensuring dynamic content management",
+        "imageSrc": "https://indoanalytica.com/static/images/Web-design-4.gif",
+        "url": ""
+      },      
+      {
+        "id": "2",
+        "title": "Retro Snake Game",
+        "description": "Developed Retro Snake Game Using C# and .NET Framework",
+        "imageSrc": "https://img.itch.zone/aW1hZ2UvMTA2OTAzOS82MTI0MTA4LmdpZg==/original/8Df50e.gif",
+        "url": "https://github.com/Ameya-20/GolangGame/tree/master/TicTacToeGame/tictactoe"
+      },
+      {
+        "id": "3",
+        "title": "Web and Android Development",
+        "description": "Developed Website and Android application to monitor and control IoT farming system",
+        "imageSrc": "https://cdn.dribbble.com/users/1118891/screenshots/4121987/media/5a4bcdded6380d23704559e057e5bd6f.gif",
+        "url": ""
+      },
+      {
+        "id": "4",
+        "title": "Tic Tac Toe Game",
+        "description": "Developed Tic Tac Toe using Golang in Agile Development Environment",
+        "imageSrc": "https://media1.giphy.com/media/Awg0daMM4WxO9ee5vF/200w.gif?cid=6c09b95220uivk9h80484cpxbgvi4bxoli9loyjkiot2jp51&ep=v1_gifs_search&rid=200w.gif&ct=g",
+        "url": "https://github.com/Ameya-20/GolangGame/tree/master/TicTacToeGame/tictactoe"
+      }
+    ],
+
+    "projects2": [
       {
         "id": "1",
         "title": "Supply Chain Analytics",
@@ -83,26 +114,18 @@
       },
       {
         "id": "2",
-        "title": "Website with SOAP/SQL",
-        "description": "Developed responsive corporate website, ensuring dynamic content management",
-        "imageSrc": "https://indoanalytica.com/static/images/Web-design-4.gif",
-        "url": ""
+        "title": "Big Query-ML Recommendation Model",
+        "description": "Analyzed Google Analytics data, and built model to optimize suggestions based on user engagement",
+        "imageSrc": "https://miro.medium.com/v2/resize:fit:1400/0*2100f4rNjGyW3AgJ.gif",
+        "url": "https://github.com/Ameya-20/GCP-BigQuery-ML"
       },
 
       {
         "id": "3",
         "title": "Sentiment Analytsis",
-        "description": "Analyzed 15k Tweets and developed NLP model predicting sentiment of US airlines",
-        "imageSrc": "https://si.wsj.net/public/resources/images/OG-AJ079_TWITSE_TOP_20161206131215.gif",
+        "description": "Explored 15k Tweets and developed NLP model predicting sentiment of US airlines",
+        "imageSrc": "https://raw.githubusercontent.com/Carlosma7/Twitter-Social-Analyzer/master/img/twitter.gif",
         "url": "https://github.com/Ameya-20/Airline-Sentiment-Analysis/blob/main/Airline_Tweets_Sentiment_Analysis.ipynb/"
-      },
-      
-      {
-        "id": "7",
-        "title": "Retro Snake Game",
-        "description": "Developed Retro Snake Game Using C# and .NET Framework",
-        "imageSrc": "https://img.itch.zone/aW1hZ2UvMTA2OTAzOS82MTI0MTA4LmdpZg==/original/8Df50e.gif",
-        "url": "https://github.com/Ameya-20/GolangGame/tree/master/TicTacToeGame/tictactoe"
       },
       {
         "id": "4",
@@ -113,26 +136,21 @@
       },
       {
         "id": "5",
-        "title": "Web and Android Development",
-        "description": "Developed Website and Android application to monitor and control IoT farming system",
-        "imageSrc": "https://cdn.dribbble.com/users/1118891/screenshots/4121987/media/5a4bcdded6380d23704559e057e5bd6f.gif",
-        "url": ""
-      },
-      {
-        "id": "6",
         "title": "Market Basket Analysis",
         "description": "Implemented Apriori algorithm to increased cross-sell opportunities and boost sales",
         "imageSrc": "https://shoppermotion.com/wp-content/uploads/2019/03/Shopping_tools-1.gif",
         "url": "https://github.com/Ameya-20/Market-Basket-Analysis/blob/main/Market_Basket_Anaylsis_Grocery_Data_usign_Apriori_Model.ipynb"
       },
+      
       {
-        "id": "8",
-        "title": "Tic Tac Toe Game",
-        "description": "Developed Tic Tac Toe using Golang in Agile Development Environment",
-        "imageSrc": "https://media1.giphy.com/media/Awg0daMM4WxO9ee5vF/200w.gif?cid=6c09b95220uivk9h80484cpxbgvi4bxoli9loyjkiot2jp51&ep=v1_gifs_search&rid=200w.gif&ct=g",
+        "id": "6",
+        "title": "Predicting Baby Weight",
+        "description": "Developed model to analyze data and predict birth weight based on features like gestation weeks and age",
+        "imageSrc": "https://media.licdn.com/dms/image/D4D12AQEdt6XuAJFSPA/article-cover_image-shrink_600_2000/0/1705178536914?e=2147483647&v=beta&t=SxwPKOWCSNmvQDia7XxQcs4DBkoFBJq8sw1g_KKJ0mo",
         "url": "https://github.com/Ameya-20/GolangGame/tree/master/TicTacToeGame/tictactoe"
       }
-    ],
+    ]
+    ,
   
     "resume": {
       "tagline": "Data Science and Software Engineering",
@@ -157,6 +175,15 @@
           "position": "Associate Consultant at Oracle",
           "bullets": [
             "Skills - SQL, Java, Springboot, React.js, Kafka, ETL, Distributed Systems, RestAPIs, Automating Workflows, Excel, Agile"
+          ]
+        },
+        {
+          "id": "3",
+          "dates": "July 2020 - May 2021",
+          "type": "Project/Internship",
+          "position": "Sofware Engineer",
+          "bullets": [
+            "Skills - SQL, React.js, Springboot, ETL, MY SQL, RestAPIs, Automation, Tableau"
           ]
         }
       ],

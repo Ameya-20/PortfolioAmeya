@@ -13,7 +13,7 @@ const Journey = () => {
   return (
     <div className="project-slider-section" style={{ textAlign: "center", paddingTop: "10px" }}>
       <div style={{ fontSize: "250%" }}>
-        <h2 style={{ marginTop: "0px" }}>Experience</h2>      
+        <h2 style={{ marginTop: "10px" }}>Experience</h2>      
         <img
           src="/images/underline.png"
           alt="underline"

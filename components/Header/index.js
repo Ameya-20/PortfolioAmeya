@@ -34,13 +34,13 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleSkillsScroll, handl
                 {data.darkMode && (
                   <Button
                     onClick={() =>
-                      setTheme(theme === "light" ? "dark" : "light")
+                      setTheme(theme === "dark" ? "light" : "dark")
                     }
                   >
                     <img
                       className="h-6"
                       src={`/images/${
-                        theme === "dark" ? "moon.svg" : "sun.svg"
+                        theme === "light" ? "sun.svg" : "moon.svg"
                       }`}
                     ></img>
                   </Button>

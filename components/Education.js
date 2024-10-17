@@ -37,9 +37,9 @@ const Education = () => {
             className="h-60 w-70 object-cover hover:scale-110"
             src="https://kjsce-old.somaiya.edu.in/media/images/cropadd0c5d9-6273-4047-898e-61a0079134b6.jpg"
             alt="K.J. Somaiya College of Engineering Logo"
-            style={{ height:"250px" }}
+            style={{ height:"260px" }}
           />
-          <div className="text-center mt-4">
+          <div className="text-center mt-2">
           <h1 className="mt-5 text-2xl font-medium">K.J Somaiya College of Engineering, Mumbai</h1>
           <p className="text-lg">Bachelor of Technology in Information Technology</p>
           <p className="text-md text-gray-400 dark:text-gray-400">Core Subjects</p>

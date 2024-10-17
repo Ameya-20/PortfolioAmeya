@@ -12,6 +12,7 @@ import Link from "next/link";
 import Cursor from "../components/Cursor";
 import Skills from "../components/Skills"; // Import the Skills component
 import ProjectSlider from "../components/ProjectSlider";
+import AnalyticsProjects from "../components/AnalyticsProjects";
 import Journey from "../components/Journey";  // Import Journey component
 import Typical from 'react-typical'; 
 // Local Data
@@ -149,16 +150,20 @@ export default function Home() {
         </div>
 
         {/* Add Journey component here */}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" 
+        <div className="mt-10 laptop:mt-15 p-2 laptop:p-0" 
         ref={aboutRef}>
         <Journey/>
         </div>
-
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
+        
+        <div className="mt-5 laptop:mt-10 p-2 laptop:p-0" ref={workRef}>
         <ProjectSlider/>
         </div>
+        
+        <div className="mt-10 laptop:mt-10 p-2 laptop:p-0">
+        <AnalyticsProjects/>
+        </div>
 
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={educationRef}>
+        <div className="mt-10 laptop:mt-10 p-2 laptop:p-0" ref={educationRef}>
         <Education/>
         </div>
 
