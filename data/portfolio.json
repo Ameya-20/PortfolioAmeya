@@ -30,7 +30,7 @@
     "experience": [
       {
         "id": "1",
-        "title": "Analytics Development Lead",
+        "title": "Analytics & Development Lead",
         "description": "July 2023 - Present",
         "imageSrc": "https://media.licdn.com/dms/image/v2/D560BAQHIXOGk3epZCA/company-logo_200_200/company-logo_200_200/0/1704904313217/carlson_analytics_lab_logo?e=1735171200&v=beta&t=dgxsFZ9mdLLF9INWNXTbNrJ8E4RwqAxITwhdKoz3qh8",
         "url": ""
@@ -78,7 +78,7 @@
         "id": "1",
         "title": "Corporate Website with Flask and SQL",
         "description": "Developed responsive corporate website using Python, ensuring dynamic content management",
-        "imageSrc": "https://indoanalytica.com/static/images/Web-design-4.gif",
+        "imageSrc": "https://www.ameba.com.uy/wp-content/uploads/2016/03/animacion-lobo-2.gif",
         "url": ""
       },      
       {
@@ -114,6 +114,13 @@
       },
       {
         "id": "2",
+        "title": "LinkedIn Post Analytics",
+        "description": "Leveraged analytics to amplify engagement, analyzing LinkedIn post data and identifying success factors",
+        "imageSrc": "https://cdn.myportfolio.com/93bea8ef802a988ed8ab44889dc82b83/bde5dd74-3aa8-4479-a3d8-5cd2802b920d_rw_1200.gif?h=b4e6094aa6e7e644ef5ccdd826456bfb",
+        "url": "https://github.com/Ameya-20/LinkedIn-Post-Analytics"
+      },
+      {
+        "id": "3",
         "title": "Big Query-ML Recommendation Model",
         "description": "Analyzed Google Analytics data, and built model to optimize suggestions based on user engagement",
         "imageSrc": "https://miro.medium.com/v2/resize:fit:1400/0*2100f4rNjGyW3AgJ.gif",
@@ -121,14 +128,22 @@
       },
 
       {
-        "id": "3",
-        "title": "Sentiment Analytsis",
+        "id": "4",
+        "title": "Sentiment Analytics",
         "description": "Explored 15k Tweets and developed NLP model predicting sentiment of US airlines",
         "imageSrc": "https://raw.githubusercontent.com/Carlosma7/Twitter-Social-Analyzer/master/img/twitter.gif",
         "url": "https://github.com/Ameya-20/Airline-Sentiment-Analysis/blob/main/Airline_Tweets_Sentiment_Analysis.ipynb/"
       },
+
       {
-        "id": "4",
+        "id": "5",
+        "title": "Sales Marketting Analytics",
+        "description": "Designed dashboard for AdventureWorks, enhancing visibility into sales and improving strategic decision-making",
+        "imageSrc": "https://i.pinimg.com/originals/cf/cf/8c/cfcf8c86a569d30b5dae709551634a5b.gif",
+        "url": "https://github.com/Ameya-20/Sales-Marketing-Analyst"
+      },
+      {
+        "id": "6",
         "title": "E-commerce Recommender System",
         "description": "Developed e-commerce recommender system to boost sales and user engagement",
         "imageSrc": "https://visme.co/blog/wp-content/uploads/2020/02/header-1200.gif",
@@ -153,7 +168,7 @@
     ,
   
     "resume": {
-      "tagline": "Data Science and Software Engineering",
+      "tagline": "Data Science, Analytics and Software Engineering",
       "description": "I am a Master's graduate with 4 years of experience and my goal is to leverage my technical expertise to solve complex business problems and drive impactful results",
       "experiences": [
         {
@@ -165,7 +180,7 @@
             
           ],
           "bullets": [
-            "Skills - Python, SQL, Tableau, ETL, AWS, Data Analysis and Visualization, Predictive Modelling, Machine Learning, Jira"
+            "Skills - Python, SQL, Tableau, ETL, AWS, Data Analysis and Visualization, Predictive Modelling, Jira"
             ]
         },
         {
@@ -174,16 +189,16 @@
           "type": "Full Time",
           "position": "Associate Consultant at Oracle",
           "bullets": [
-            "Skills - SQL, Java, Springboot, React.js, Kafka, ETL, Distributed Systems, RestAPIs, Automating Workflows, Excel, Agile"
+            "Skills - SQL, Java, Oracle Cloud, Springboot, React.js, Kafka, ETL, Distributed Systems, RestAPIs, Agile"
           ]
         },
         {
           "id": "3",
           "dates": "July 2020 - May 2021",
           "type": "Project/Internship",
-          "position": "Sofware Engineer",
+          "position": "Analytics and Development Lead at StarSpark",
           "bullets": [
-            "Skills - SQL, React.js, Springboot, ETL, MY SQL, RestAPIs, Automation, Tableau"
+            "Skills - SQL, React.js, Springboot, ETL, MY SQL, RestAPIs, AWS, Tableau"
           ]
         }
       ],
@@ -203,9 +218,9 @@
       },
 
 
-      "languages": ["Python", "Java", "C++", "Go", "SQL", "MySQL", "Kafka", "Spark"],
-      "frameworks": ["React.js", "Next.js", "Springboot", "GraphQL", ".Net","SOAP", "Kubernetes", "Agile/Scrum"],
-      "others": ["AWS (S3, Sagemaker)", "ETL/Data Piplelines", "Machine Learning", "Data Structures", "Algorithms", "CI/CD", "Tableau", "A/B Testing"]
+      "languages": ["Python","Java", "JavaScript","C++", "Go", "SQL", "MySQL", "Kafka"],
+      "frameworks": ["React.js", "Python ML Libraries", "Next.js", "Springboot", ".Net","Kubernetes", "Agile/Scrum"],
+      "others": ["AWS (S3, Sagemaker, Redshift)", "Databricks", "Machine Learning", "Data Structures", "Algorithms", "CI/CD", "Tableau", "A/B Testing"]
    
     },
   
